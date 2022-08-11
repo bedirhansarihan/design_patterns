@@ -101,7 +101,6 @@ def select_team() -> F1TeamFactory:
 
         try:
             return teams[choose_team]
-            break
         except KeyError:
             print("Key Error")
 
