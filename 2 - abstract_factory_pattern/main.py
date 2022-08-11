@@ -81,8 +81,8 @@ class Mercedes(F1TeamFactory):
 
 class Ferrari(F1TeamFactory):
 
-    def get_first_driver(self):
+    def get_first_driver(self) -> FirstDriver:
         return Leclerc()
 
-    def get_second_driver(self):
+    def get_second_driver(self) -> SecondDriver:
         return Sainz()
