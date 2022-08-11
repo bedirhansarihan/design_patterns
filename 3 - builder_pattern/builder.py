@@ -123,7 +123,7 @@ class CheapGamingComputerBuilder(BuilderInterface):
 
 
 class Director:
-    __builder = None
+    __builder: BuilderInterface = None
 
     def set_builder(self, builder):
         self.__builder: BuilderInterface = builder
